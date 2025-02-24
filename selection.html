@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop the Selection | P.S Gift Shop</title>
+    <link rel="stylesheet" href="selections.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <h1 class="title">P.S Gift Shop</h1>
+        </div>
+        <div class="navbar-right">
+            <div class="navbar-center-icons">
+                <input type="text" placeholder="Search..." class="search-bar">
+                <img class="icon" src="pictures/cart.png" alt="Cart">
+                <img src="pictures/wishlist.png" alt="Wishlist" class="icon">
+            </div>
+            <button class="menu-btn">☰ Menu</button>
+        </div>
+        <a href="index.html" class="back-btn">← Home</a>
+    </nav>
+
+    <main>
+        <section class="selection-section">
+                <div class="items-container">
+                <div class="item">
+                    <img src="pictures/baseball.jpg" alt="Item 1">
+                    <h3>Baseball</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/tshirt.jpg" alt="Item 2">
+                    <h3>T-shirts</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/hoodies.jpg" alt="Item 3">
+                    <h3>Hoodies</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/hat.webp" alt="Item 4">
+                    <h3>Hats</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/mug.jpg" alt="Item 5">
+                    <h3>Mugs</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/keychain.webp" alt="Item 6">
+                    <h3>Keychain</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/shotglass.jpg" alt="Item 6">
+                    <h3>Shotglass</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/coin.jpeg" alt="Item 6">
+                    <h3>Coin Bank</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/ornaments.avif" alt="Item 6">
+                    <h3>Ornaments</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+                
+                <div class="item">
+                    <img src="pictures/tote.jpg" alt="Item 6">
+                    <h3>Tote Bag</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/teddy.webp" alt="Item 6">
+                    <h3>Teddy Bear</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/megnet.avif" alt="Item 6">
+                    <h3>Pin</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/mag.jpg" alt="Item 6">
+                    <h3>Magnet</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/crew.jpg" alt="Item 6">
+                    <h3>Crew Necks</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/pj.webp" alt="Item 6">
+                    <h3>Pajamas</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/snow.jpg" alt="Item 6">
+                    <h3>Snowglobe</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/onege.jpg" alt="Item 6">
+                    <h3>Onesies</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+            
+                <div class="item">
+                    <img src="pictures/aprone.webp" alt="Item 6">
+                    <h3>Aprone</h3>
+                    <button class="cart-btn" onclick="addToCart(this)">Add to 🛒</button>
+                    <button class="like-btn" onclick="toggleLike(this)">❤</button>
+                </div>
+            
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+
+</body>
+</html>
